@@ -82,7 +82,7 @@ NAVIGATION
 
 .nav__mobile--wrapper {
     position: absolute;
-    right: 64px;
+    right: 1px;
     font-size: 32px;
     display: none;
     
@@ -188,7 +188,7 @@ LANDING
 
 
 .landing__header {
-    font-size: 38px;
+    font-size: 48px;
     line-height: 1.25;
     font-weight: 700;
 }
@@ -913,7 +913,18 @@ FOOTER
 /*SMALL PHONES, LARGE PHONES,TABLETS*/
 
 
+@media (max-width: 1247px) {
+    .landing__header {
+        font-size: 38px;
+    }
+}
+
 @media (max-width:1021px) {
+    .landing__header {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
     .nav__mobile--wrapper {
         display: block;
         color: #242424;
@@ -1104,6 +1115,11 @@ FOOTER
 }
 
 @media (max-width:768px) {
+    .landing__header {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
     .service__header {
         font-size: 48px
     }
@@ -1250,10 +1266,15 @@ FOOTER
    .value__btn {
        margin: 0 auto;
        margin-bottom: 48px;
+       margin-top: 24px;
    }
 
    .pricing__description--para {
        max-width: 70%;
+   }
+
+   .plan{
+       margin: 24px 0 0 0;
    }
 
    .service__para, .summary__para {
@@ -1278,6 +1299,18 @@ FOOTER
 }
 
 @media (max-width:550px){
+    .landing__input{
+        padding: 20px;
+        margin-bottom: 12px;
+    }
+
+    .landing__btn {
+        position: inherit;
+        width: 100%;
+        height: 64px;
+        font-size: 18px;
+    }
+
     .footer__links--wrapper {
         display: flex;
         flex-wrap: wrap;

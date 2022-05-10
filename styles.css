@@ -66,6 +66,10 @@ li {
     color: #8e8e8e;
 }
 
+.btn {
+    margin-top: 32px;
+}
+
 /*
 
 NAVIGATION
@@ -184,7 +188,7 @@ LANDING
 
 
 .landing__header {
-    font-size: 3rem;
+    font-size: 38px;
     line-height: 1.25;
     font-weight: 700;
 }
@@ -201,6 +205,7 @@ LANDING
     font-size: 1.125rem;
     margin: 32px 0;
     line-height: 1.5em;
+    max-width: 100%;
 }
 
 .landing__input--wrapper {
@@ -263,7 +268,7 @@ LANDING
 }
 
 .landing__img {
-    width: 708px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -587,6 +592,7 @@ VALUES
 }
 
 .value__btn {
+    width: ;
     margin-top: 48px;
 }
 
@@ -906,6 +912,7 @@ FOOTER
 
 /*SMALL PHONES, LARGE PHONES,TABLETS*/
 
+
 @media (max-width:1021px) {
     .nav__mobile--wrapper {
         display: block;
@@ -977,6 +984,10 @@ FOOTER
     .service {
         max-width: 50%;
         
+    }
+
+    .service__header {
+        font-size: 48px;
     }
 
     .service__description--para {
@@ -1084,6 +1095,10 @@ FOOTER
         width: 100%;
         max-width: 400px;
 
+    }
+
+    .service__para, .summary__para {
+        text-align: center;
     }
 
 }

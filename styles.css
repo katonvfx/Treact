@@ -742,9 +742,14 @@ PLANS
 
 .plan__btn--wrapper {
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .plan__btn {
+    display: flex;
+    justify-content: center;
     border-radius: 9999px;
     padding: 20px 90px;
     color: white;
@@ -1342,6 +1347,12 @@ FOOTER
 
     .footer__copyright {
         margin-bottom: 20px;
+    }
+
+    .plan__btn {
+        width: 200px;
+        margin: 24px 24px;
+        padding: 16px;
     }
 }
 
